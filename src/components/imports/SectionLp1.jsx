@@ -24,7 +24,7 @@ export const SectionLp1 = () => {
                     <img src={imgFlecha} alt="Flecha apuntando al botón de precalificación del crédito Mejoravit" className={styles.imgFlecha} />
 
                     <div>
-                        <h2 className="light-text">Precalifica y obten hasta $163,000 en efectivo</h2>
+                        <h2 className="light-text">Precalifica y obtén hasta $169,039 en efectivo</h2>
 
                         <h3 className="bold-text">SIN BURO NI AVAL</h3>
                     </div>

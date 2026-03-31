@@ -24,7 +24,7 @@ export const iconosSectionLp3 = [
             {
                 id: '2a',
                 icon: faCircleCheck,
-                texto: 'Hasta $163,000',
+                texto: 'Hasta $169,039',
             },
             {
                 id: '2b',

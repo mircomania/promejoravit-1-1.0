@@ -28,7 +28,7 @@
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    min-height: 100dvh;
+    min-height: 100svh;
     padding: 20px 0px;
     padding-top: 80px;
     background-color: var(--background-color);
