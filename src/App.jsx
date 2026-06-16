@@ -3,8 +3,9 @@ import { Routes, Route } from 'react-router-dom';
 
 import { NavBar } from './components/common/NavBar';
 import { Cargando } from './components/utils/Cargando';
-import { Footer } from './components/common/Footer';
 import { ScrollToTop } from './hooks/ScrollTop';
+import { WhatsAppIcon } from './components/utils/WhatsAppIcon';
+import { Footer } from './components/common/Footer';
 
 const LandingPage = lazy(() => import('./components/pages/LandingPage'));
 const PoliticasPage = lazy(() => import('./components/pages/PoliticasPage'));
@@ -17,6 +18,8 @@ function App() {
             <ScrollToTop />
 
             <NavBar />
+
+            <WhatsAppIcon />
 
             <Suspense
                 fallback={
