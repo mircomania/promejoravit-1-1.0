@@ -13,23 +13,23 @@ export const iconosSectionLp3 = [
             {
                 id: '1b',
                 icon: faCircleCheck,
-                texto: 'Obtener dinero en efectivo con tu subcuenta de vivienda',
+                texto: 'Obtener beneficios con tu subcuenta de vivienda',
             },
         ],
     },
     {
         id: 2,
-        titulo: '¿Cuánto puedo recibir?',
+        titulo: '¿Que beneficios tiene?',
         items: [
             {
                 id: '2a',
                 icon: faCircleCheck,
-                texto: 'Hasta $169,039',
+                texto: 'Acceso limitado a tu subcuenta de vivienda',
             },
             {
                 id: '2b',
                 icon: faCircleCheck,
-                texto: 'Depende del saldo y capacidad de pago del solicitante',
+                texto: 'Depende de cada solicitante y su situacion actual',
             },
         ],
     },

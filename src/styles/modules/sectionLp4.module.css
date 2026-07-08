@@ -7,6 +7,7 @@
     justify-content: center;
     background-color: var(--tertiary-color);
     padding: 20px;
+    gap: 20px;
 }
 
 .sectionTitulo {
@@ -20,7 +21,6 @@
 
 .sectionTitulo h2 {
     text-align: center;
-    margin-bottom: 20px;
     font-size: 32px;
     width: 260px;
 }
@@ -33,6 +33,15 @@
     align-items: center;
     justify-content: center;
     color: var(--text-color);
+    gap: 20px;
+}
+
+.iconsContainer {
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    justify-content: center;
+    gap: 10px;
 }
 
 .iconContainer {
@@ -40,8 +49,7 @@
     align-items: center;
     justify-content: start;
     text-align: center;
-    margin-bottom: 10px;
-    gap: 30px;
+    gap: 10px;
 }
 
 .icon {
@@ -51,7 +59,7 @@
 }
 
 .iconContainer p {
-    font-size: 22px;
+    font-size: 20px;
 }
 
 .parrafoContainer {
@@ -59,48 +67,57 @@
     flex-direction: column;
     align-items: center;
     justify-content: center;
+    text-align: center;
     width: 320px;
-    margin-top: 10px;
-}
-
-.parrafoContainer p {
-    text-align: justify;
+    gap: 20px;
 }
 
 .parrafoContainer h3 {
-    margin-top: 20px;
-    font-size: 16px;
+    font-size: 28px;
 }
 
 @media (min-width: 576px) {
     .sectionTitulo h2 {
-        font-size: 42px;
-        width: 350px;
+        width: auto;
     }
 
     .parrafoContainer {
-        margin-top: 20px;
-        width: 487px;
-    }
-
-    .parrafoContainer h3 {
-        margin-top: 20px;
-        font-size: 22px;
+        width: 440px;
     }
 }
 
 @media (min-width: 768px) {
+    .sectionContainer {
+        padding: 40px 20px;
+    }
+    .sectionContenido {
+        flex-direction: row;
+        align-items: start;
+        gap: 40px;
+    }
+
+    .parrafoContainer {
+        margin-top: 5px;
+        width: 340px;
+    }
+}
+
+@media (min-width: 1200px) {
     .sectionTitulo h2 {
-        font-size: 46px;
-        width: 768px;
+        font-size: 42px;
     }
 
     .sectionContenido {
-        flex-direction: row;
-        margin-top: 20px;
-        gap: 20px;
+        gap: 220px;
     }
 
+    .parrafoContainer {
+        width: 487px;
+        text-align: left;
+    }
+}
+
+@media (min-width: 1400px) {
     .iconContainer {
         gap: 20px;
     }
@@ -111,108 +128,34 @@
     }
 
     .iconContainer p {
-        font-size: 24px;
-    }
-
-    .parrafoContainer {
-        margin-top: 0px;
-        width: 320px;
-    }
-
-    .parrafoContainer h3 {
-        margin-top: 10px;
-        font-size: 16px;
-    }
-}
-
-@media (min-width: 1200px) {
-    .sectionContainer {
-        min-height: calc(100dvh - 80px);
-    }
-
-    .sectionTitulo h2 {
-        font-size: 52px;
-    }
-
-    .sectionContenido {
-        margin-top: 30px;
-        gap: 50px;
-    }
-
-    .parrafoContainer {
-        width: 487px;
-    }
-
-    .parrafoContainer h3 {
-        margin-top: 20px;
         font-size: 22px;
     }
-}
-
-@media (min-width: 1400px) {
-    .sectionTitulo h2 {
-        font-size: 68px;
-        width: 1000px;
-    }
-
-    .sectionContenido {
-        gap: 70px;
-    }
-
-    .icon {
-        width: 60px;
-        height: 50px;
-    }
-
-    .iconContainer p {
-        font-size: 26px;
-    }
 
     .parrafoContainer {
+        margin-top: 10px;
         width: 487px;
     }
 
     .parrafoContainer p {
-        font-size: 18px;
-    }
-
-    .parrafoContainer h3 {
-        font-size: 24px;
+        font-size: 20px;
     }
 }
 
 @media (min-width: 1700px) {
     .sectionTitulo h2 {
-        font-size: 78px;
+        font-size: 52px;
         width: 1200px;
     }
 
-    .sectionContenido {
-        gap: 70px;
-    }
-
-    .iconContainer {
-        margin-bottom: 20px;
-    }
-
-    .icon {
-        width: 70px;
-        height: 60px;
-    }
-
-    .iconContainer p {
-        font-size: 28px;
+    .iconsContainer {
+        gap: 30px;
     }
 
     .parrafoContainer {
         width: 520px;
     }
 
-    .parrafoContainer p {
-        font-size: 22px;
-    }
-
     .parrafoContainer h3 {
-        font-size: 26px;
+        font-size: 32px;
     }
 }

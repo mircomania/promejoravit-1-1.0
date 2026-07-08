@@ -12,12 +12,13 @@ export const SectionLp2 = () => {
 
     return (
         <section className={styles.sectionContainer}>
-            <header className={styles.sectionTitulo}>
-                <h2 className="bold-text">Simula tu Mejoravit 2026</h2>
+            <header>
+                <h2 className="light-text">Simula tu </h2>
+                <h2 className="bold-text">Mejoravit</h2>
 
                 <h3 className="light-text">
                     Regístrate y un agente especializado se pondrá en contacto contigo en pocos minutos, no esperes más y accede a tu precalificación
-                    Crédito Mejoravit 2026
+                    Mejoravit
                 </h3>
             </header>
 

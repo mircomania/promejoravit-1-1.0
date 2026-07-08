@@ -7,11 +7,11 @@ export const SectionLp4 = () => {
     return (
         <section className={styles.sectionContainer}>
             <header className={styles.sectionTitulo}>
-                <h2 className="bold-text">Beneficios Saldo en Línea</h2>
+                <h2 className="bold-text">Beneficios Mejoravit</h2>
             </header>
 
             <div className={styles.sectionContenido}>
-                <div>
+                <div className={styles.iconsContainer}>
                     {iconosSectionLp4.map(({ id, icon, text }) => (
                         <div key={id} className={styles.iconContainer}>
                             <FontAwesomeIcon icon={icon} className={styles.icon} />
@@ -22,12 +22,11 @@ export const SectionLp4 = () => {
 
                 <div className={styles.parrafoContainer}>
                     <p className="light-text">
-                        Obtén hoy tu crédito Mejoravit 2026 sin necesidad de aval ni revisión en buró de crédito. Pagos cómodos vía nómina y atención
-                        veloz 100% personalizada. Te ayudamos a usar tu saldo Mejoravit para remodelar, mejorar tu vivienda o acceder a Mejoravit en
-                        efectivo. Realiza hoy mismo tu precalificación Infonavit en pocos minutos y comienza ahora.
+                        Obtén hoy tu Mejoravit 2026. atención veloz 100% personalizada. Te ayudamos a usar tu Mejoravit para remodelar, mejorar tu
+                        vivienda o lo que tu quieras. Realiza hoy mismo tu precalificación Infonavit en pocos minutos y comienza ahora.
                     </p>
 
-                    <h3 className="bold-text">Confiable, seguro y diseñado para ti</h3>
+                    <h3 className="bold-text">Diseñado para ti</h3>
                 </div>
             </div>
         </section>

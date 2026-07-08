@@ -6,7 +6,7 @@ export const BotonNav = ({
     ariaLabel = 'Ir a la sección de contacto de Mejoravit',
     className = 'boton-1 bold-text',
     title = 'Haz clic para ir a la sección de contacto',
-    children = '¡Simula tu crédito ahora!',
+    children = '¡Simula tu Mejoravit ahora!',
     dataCta,
     dataLink,
 }) => {

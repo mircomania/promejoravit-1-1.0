@@ -31,7 +31,7 @@ export const SectionLp3 = () => {
                 ref={imageRef}
                 src={img1Section}
                 className="animacion-izq"
-                alt="Ejecutiva de Mejoravit mostrando el dinero que puedes recibir con Mejoravit"
+                alt="Ejecutiva enseñando los beneficios de Mejoravit"
                 loading="lazy"
                 decoding="async"
             />

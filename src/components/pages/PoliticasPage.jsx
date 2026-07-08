@@ -7,7 +7,7 @@ const PoliticasPage = () => {
         <main>
             <TitleSEO
                 title="Mejoravit | Política de Privacidad"
-                description="Conoce cómo protegemos y utilizamos tu información personal en nuestra plataforma de Crédito Mejoravit."
+                description="Conoce cómo protegemos y utilizamos tu información personal en nuestra plataforma de Mejoravit."
                 canonical="https://creditosoloparati.com.mx/politica-privacidad"
             />
 

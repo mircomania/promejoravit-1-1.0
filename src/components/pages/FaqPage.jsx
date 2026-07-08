@@ -46,7 +46,7 @@ const FaqPage = () => {
         <main>
             <TitleSEO
                 title="Mejoravit | FAQ"
-                description="Encuentra respuestas claras y rápidas a las dudas más comunes sobre el Crédito Mejoravit 2025."
+                description="Encuentra respuestas claras y rápidas a las dudas más comunes sobre Mejoravit."
                 canonical="https://creditosoloparati.com.mx/faq"
             />
 

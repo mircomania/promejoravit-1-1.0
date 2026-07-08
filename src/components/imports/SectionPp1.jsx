@@ -6,7 +6,7 @@ import { BotonNav } from '../utils/BotonNav';
 
 const MEJORAVIT_LINK = (
     <NavLink to="/" title="ir a creditosoloparati.com.mx" data-link="politicas-home-link">
-        creditosoloparati
+        Mejoravit
     </NavLink>
 );
 
@@ -16,8 +16,6 @@ export const SectionPp1 = () => {
             <div className="fade-in">
                 <header className={styles.sectionTitulo}>
                     <h1 className="bold-text">Política de privacidad</h1>
-
-                    <h2 className="light-text">creditosoloparati.com.mx</h2>
                 </header>
 
                 <div className={`${styles.sectionContenido} light-text`}>

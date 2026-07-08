@@ -7,6 +7,7 @@
     background-color: var(--background-color-3);
     z-index: 2;
     padding: 20px;
+    padding-top: 40px;
 }
 
 .sectionTitulo {
@@ -59,6 +60,7 @@
     .sectionContainer {
         flex-direction: row;
         padding-bottom: 40px;
+        gap: 20px;
     }
 
     .sectionTitulo h2 {

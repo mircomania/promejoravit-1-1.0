@@ -7,27 +7,25 @@ import { BotonNav } from '../utils/BotonNav';
 export const SectionLp1 = () => {
     return (
         <section className={styles.sectionContainer}>
-            <header className={styles.sectionTitulo}>
+            <header>
                 <p className="light-text">Solicita tu</p>
 
-                <h1 className="bold-text">Crédito Mejoravit</h1>
+                <h1 className="bold-text">Mejoravit</h1>
 
                 <p className="light-text">En minutos</p>
             </header>
 
             <div className={styles.sectionContenido}>
-                <img src={img1Section} alt="Ejecutiva de Mejoravit presentando las ganancias del crédito" className={styles.img1Section} />
+                <img src={img1Section} alt="Ejecutiva animada de Mejoravit" className={styles.img1Section} />
 
                 <div className={styles.contenido1}>
                     <BotonNav dataCta="home-btn-1" />
 
-                    <img src={imgFlecha} alt="Flecha apuntando al botón de precalificación del crédito Mejoravit" className={styles.imgFlecha} />
+                    <img src={imgFlecha} alt="Flecha apuntando al botón de precalificación Mejoravit" className={styles.imgFlecha} />
 
-                    <div>
-                        <h2 className="light-text">Precalifica y obtén hasta $169,039 en efectivo</h2>
+                    <h2 className="bold-text">¡PRECALIFICA AHORA!</h2>
 
-                        <h3 className="bold-text">SIN BURO NI AVAL</h3>
-                    </div>
+                    <h3 className="light-text">Rápido, fácil y con cobertura a nivel nacional</h3>
                 </div>
             </div>
 

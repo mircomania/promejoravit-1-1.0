@@ -2,7 +2,6 @@
     display: flex;
     flex-direction: column;
     align-items: center;
-    justify-content: center;
     min-height: 100dvh;
     padding: 20px;
     padding-top: 80px;
@@ -26,7 +25,6 @@
 }
 
 .sectionContenido p {
-    text-align: justify;
     width: 320px;
     margin-bottom: 20px;
 }

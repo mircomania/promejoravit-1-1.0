@@ -4,17 +4,17 @@ export const iconosSectionLp4 = [
     {
         id: 1,
         icon: faHandshake,
-        text: 'Sin aval',
+        text: 'Atención personalizada',
     },
     {
         id: 2,
         icon: faAddressCard,
-        text: 'Sin revisión de buró',
+        text: 'Ayuda con tus tramites',
     },
     {
         id: 3,
         icon: faPenNib,
-        text: 'Pagos vía nómina',
+        text: 'Cobertura nacional',
     },
     {
         id: 4,

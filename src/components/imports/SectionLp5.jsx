@@ -18,7 +18,7 @@ export const SectionLp5 = () => {
 
                 <h3>¿Listo para iniciar?</h3>
 
-                <h3>Simula tu crédito y obtén respuesta hoy mismo</h3>
+                <h3>Simula tu Mejoravit y obtén respuesta hoy mismo</h3>
             </header>
 
             <div className={styles.sectionContenido}>
@@ -26,7 +26,7 @@ export const SectionLp5 = () => {
                     ref={imageRef}
                     src={img1Section}
                     className="animacion-der"
-                    alt="Ejecutiva de Mejoravit de brazos cruzados, esperando que dejes tus datos para solicitar tu crédito Mejoravit"
+                    alt="Ejecutiva de Mejoravit de brazos cruzados, esperando que dejes tus datos para solicitar tu Mejoravit"
                     loading="lazy"
                     decoding="async"
                 />

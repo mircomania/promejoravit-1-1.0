@@ -9,24 +9,27 @@
     padding: 20px 0;
 }
 
-.sectionTitulo {
+.sectionContainer header {
     user-select: none;
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: center;
-}
-
-.sectionTitulo h2 {
-    color: var(--text-color-2);
-    text-align: center;
-    margin-bottom: 10px;
-    font-size: 25px;
-}
-
-.sectionTitulo h3 {
     color: var(--text-color);
-    text-align: justify;
+}
+
+.sectionContainer header h2 {
+    font-size: 18px;
+}
+
+.sectionContainer header h2:nth-child(2) {
+    color: var(--text-color-2);
+    font-size: 32px;
+    padding-bottom: 20px;
+}
+
+.sectionContainer header h3 {
+    text-align: center;
     width: 320px;
     font-size: 16px;
 }
@@ -43,11 +46,7 @@
 }
 
 @media (min-width: 576px) {
-    .sectionTitulo h2 {
-        font-size: 34px;
-    }
-
-    .sectionTitulo h3 {
+    .sectionContainer header h3 {
         width: 417px;
     }
 
@@ -57,11 +56,11 @@
 }
 
 @media (min-width: 768px) {
-    .sectionTitulo h2 {
+    .sectionContainer header h2:nth-child(2) {
         font-size: 42px;
     }
 
-    .sectionTitulo h3 {
+    .sectionContainer header h3 {
         width: 619px;
     }
 
@@ -73,7 +72,6 @@
 @media (min-width: 992px) {
     .sectionContainer {
         justify-content: flex-end;
-        padding: 0px 0;
     }
 
     .contenido1 {
@@ -85,20 +83,16 @@
         pointer-events: none;
         filter: drop-shadow(0px 0px 50px var(--secondary-color));
         width: 400px;
-        margin-bottom: -23px;
+        margin-bottom: -59px;
     }
 }
 
 @media (min-width: 1200px) {
     .sectionContainer {
-        min-height: calc(100dvh - 80px);
+        gap: 20px;
     }
 
-    .sectionTitulo h2 {
-        font-size: 48px;
-    }
-
-    .sectionTitulo h3 {
+    .sectionContainer header h3 {
         width: 700px;
     }
 
@@ -107,42 +101,23 @@
     }
 
     .contenido1 img {
-        margin-bottom: -28px;
+        margin-bottom: -62px;
     }
 }
 
 @media (min-width: 1400px) {
-    .sectionTitulo h2 {
-        font-size: 68px;
-    }
-
-    .sectionTitulo h3 {
-        font-size: 18px;
-        width: 900px;
-    }
-
-    .contenido1 {
-        margin-top: 20px;
-    }
-
-    .form {
-        width: 500px;
-        margin: 40px 0;
-    }
-
     .contenido1 img {
-        width: 500px;
-        margin-bottom: -2px;
+        margin-bottom: -93px;
     }
 }
 
 @media (min-width: 1700px) {
-    .sectionTitulo h2 {
-        font-size: 76px;
+    .sectionContainer header h2:nth-child(2) {
+        font-size: 62px;
     }
 
     .contenido1 img {
-        width: 590px;
-        margin-bottom: 0px;
+        width: 450px;
+        margin-bottom: -89px;
     }
 }
