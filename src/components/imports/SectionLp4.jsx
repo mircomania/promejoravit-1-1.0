@@ -22,7 +22,7 @@ export const SectionLp4 = () => {
 
                 <div className={styles.parrafoContainer}>
                     <p className="light-text">
-                        Obtén hoy tu Mejoravit 2026. atención veloz 100% personalizada. Te ayudamos a usar tu Mejoravit para remodelar, mejorar tu
+                        Obtén hoy tu Mejoravit 2026. atención veloz 100% personalizada. Te ayudamos a usar tu fondo para remodelar, mejorar tu
                         vivienda o lo que tu quieras. Realiza hoy mismo tu precalificación Infonavit en pocos minutos y comienza ahora.
                     </p>
 

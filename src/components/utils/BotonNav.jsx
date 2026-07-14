@@ -3,10 +3,10 @@ import PropTypes from 'prop-types';
 
 export const BotonNav = ({
     to = '#registro',
-    ariaLabel = 'Ir a la sección de contacto de Mejoravit',
+    ariaLabel = 'Ir a la sección de contacto',
     className = 'boton-1 bold-text',
     title = 'Haz clic para ir a la sección de contacto',
-    children = '¡Simula tu Mejoravit ahora!',
+    children = '¡Simula tu beneficio ahora!',
     dataCta,
     dataLink,
 }) => {

@@ -18,7 +18,6 @@ export const SectionLp2 = () => {
 
                 <h3 className="light-text">
                     Regístrate y un agente especializado se pondrá en contacto contigo en pocos minutos, no esperes más y accede a tu precalificación
-                    Mejoravit
                 </h3>
             </header>
 
