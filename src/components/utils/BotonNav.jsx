@@ -2,7 +2,7 @@ import { useLocation, useNavigate } from 'react-router-dom';
 import PropTypes from 'prop-types';
 
 export const BotonNav = ({
-    to = '#registro',
+    to = '/registro',
     ariaLabel = 'Ir a la sección de contacto',
     className = 'boton-1 bold-text',
     title = 'Haz clic para ir a la sección de contacto',
